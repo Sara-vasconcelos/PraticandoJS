@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var jogador1= prompt("Jogador 1 digite um número")
+jogador1= parseInt(jogador1)
+
+
+var jogador2= prompt("Jogador 2 digite um número")
+jogador2= parseInt(jogador2)
+
+var res = sorteio == 0 && jogador1 ==0 || jogador2==0 
+
+if(jogador1 === jogador2  ) {
+alert('EMPATE. JOGO ENCERRADO')
+}else{
+   var sorteio = parseInt(Math.random() * 2);
+   alert("o n sorteado foi " + sorteio)
+}
+
+
+          
+if(sorteio=== 0 && jogador1 < jogador2 || sorteio=== 1 && jogador1 > jogador2 ){
+    alert("jogador 1 ganhou")
+}else{
+    alert("jogador 2 ganhou")
+}
+
+
+
+    </script>
+
+
+
+
+
+</body>
+</html>
