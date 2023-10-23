@@ -1,1 +1,1 @@
-Praticanoo laços , repetições , operadores e logica
+Praticando laços , repetições , operadores e logica
